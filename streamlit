@@ -1,0 +1,2 @@
+mkdir .streamlit
+nano .streamlit/secrets.toml
