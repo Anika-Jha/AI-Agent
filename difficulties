@@ -1,0 +1,2 @@
+Faced problem while using SerpAI and openAI despite installing all necessary packages and checking contents of secret.toml file , it still throws error.
+To debug , changed the permission for secret.toml file, deleted and re-installed libraries therefore dashboard takes queries now and is functioning.
