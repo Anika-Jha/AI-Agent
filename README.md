@@ -94,6 +94,8 @@ Create a new project and enable the Google Sheets API.
 
 Create a service account and download the JSON key file.
 
+video:https://www.loom.com/share/9a2daad3bf414dfdbe48a65b2ab6d51a?sid=6d2a4be9-73f0-46a0-9800-43d5fe9a6fe2
+
 Future Enhancements
 
 Advanced NLP Analysis:Integrate SpaCy or NLTK for entity recognition and text summarization.
