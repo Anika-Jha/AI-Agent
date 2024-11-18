@@ -1,0 +1,12 @@
+AI-Agent-Project/
+├── app.py                   # Main Streamlit dashboard
+├── search.py                # Handles web search functionality
+├── llm.py                   # Manages LLM integration (GPT)
+├── sheets.py                # Google Sheets data handling
+├── utils.py                 # Utility functions (e.g., CSV handling)
+├── requirements.txt         # Dependencies
+├── README.md                # Documentation
+├── .streamlit/
+│   └── secrets.toml         # API keys and secrets
+└── assets/
+    └── demo.mp4             # Optional demo video for submission
