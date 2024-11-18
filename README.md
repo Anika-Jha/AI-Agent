@@ -1,6 +1,7 @@
 # AI-Agent 
 The AI Agent Dashboard is a powerful tool that automates data retrieval using web searches and advanced language models. It enables users to extract specific information for entities listed in CSV files or Google Sheets. By leveraging APIs like SerpAPI for web searches and OpenAI's GPT for data extraction, the dashboard provides a seamless experience for gathering insights from the web.
 
+
 Key Features
 
 File Upload & Google Sheets Integration: Upload CSV files or connect Google Sheets to fetch data.
@@ -8,6 +9,7 @@ Dynamic Search Queries: Input custom prompts to perform web searches for each en
 Automated Information Extraction: Use GPT-4 to extract relevant details from search results.
 User-Friendly Dashboard: Intuitive interface built with Streamlit for ease of use.
 Downloadable Results: Export extracted data as a CSV file.
+
 
 Tech Stack
 
@@ -24,11 +26,14 @@ Setup Instructions
  1.Clone the Repository
    git clone https://github.com/yourusername/AI-Agent-Project.git
    cd AI-Agent-Project
+   
 2.Create a Virtual Environment
   python3 -m venv venv
   source venv/bin/activate  # On Windows: venv\Scripts\activate
+  
 3.Install Dependencies
   pip install -r requirements.txt
+  
 4.Configure API Keys
   Create a .streamlit directory (if it doesn't exist) and add your API keys in .streamlit/secrets.toml:
   mkdir .streamlit
@@ -37,6 +42,7 @@ Setup Instructions
   OPENAI_API_KEY = "your_openai_api_key"
   SERPAPI_API_KEY = "your_serpapi_api_key"
   For Google Sheets, upload your service account JSON key file, and reference it in app.py as needed.
+  
 5.Run the Application
   streamlit run app.py
   Open your browser and navigate to http://localhost:8501.
@@ -88,6 +94,7 @@ Contributing
 Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
 
 Steps to Contribute:
+
 Fork the repository.
 Create a new branch (git checkout -b feature-branch).
 Commit your changes (git commit -m "Add new feature").
