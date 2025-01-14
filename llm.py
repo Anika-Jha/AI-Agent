@@ -36,6 +36,6 @@ if __name__ == "__main__":
     }
     search_results_df = pd.DataFrame(data)
 
-    # Call the function
+   
     result_df = extract_information(search_results_df)
     st.write(result_df)
