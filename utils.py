@@ -13,6 +13,5 @@ def download_data(df, filename):
     csv = df.to_csv(index=False)
     
     # Creates a download button in the Streamlit interface to download the CSV file
-    # The file will be named 'filename' and will be downloadable in CSV format
     st.download_button(label="Download CSV", data=csv, file_name=filename, mime='text/csv')
 
