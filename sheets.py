@@ -8,7 +8,7 @@ def connect_google_sheet(json_keyfile, sheet_url):
     # Create credentials from the JSON keyfile of the service account
     credentials = service_account.Credentials.from_service_account_info(json_keyfile)
     
-    # Authorize the client with the credentials to access the Google Sheets API
+    # Authorize the client 
     client = authorize(credentials)
     
     # Open the Google Sheet using its URL and select the first worksheet (sheet1)
