@@ -9,7 +9,7 @@ import os
 api_key = os.getenv("SERPAPI_API_KEY")
 st.title("AI Agent Dashboard")
 
-# File upload options
+# File upload 
 uploaded_file = st.file_uploader("Upload CSV", type=['csv'])
 json_keyfile = st.file_uploader("Upload Google Sheets JSON Key", type=['json'])
 sheet_url = st.text_input("Enter Google Sheet URL")
