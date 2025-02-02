@@ -5,7 +5,7 @@ import streamlit as st
 
 # Function to search for entities using SerpAPI
 def search_entity(df, column, prompt_template):
-    # Retrieve the SerpAPI API key from Streamlit secrets
+    # Retrieve the SerpAPI API key 
     api_key = st.secrets["SERPAPI_API_KEY"]
     results = []  
     for entity in df[column]:
