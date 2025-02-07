@@ -3,6 +3,7 @@ import openai
 import streamlit as st
 import pandas as pd
 import os
+#Fetch the API key from environment variables
 api_key = os.getenv("SERPAPI_API_KEY")
 # Ensure that the secrets are correctly accessed
 if "OPENAI_API_KEY" not in st.secrets:
