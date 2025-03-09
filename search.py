@@ -1,5 +1,5 @@
 # Importing the necessary modules
-from serpapi import GoogleSearch  # Import the GoogleSearch class from the SerpAPI library
+from serpapi import GoogleSearch  # Import the GoogleSearch class
 import pandas as pd  
 import streamlit as st  
 
