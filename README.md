@@ -1,5 +1,5 @@
 # AI-Agent 
-The AI Agent Dashboard is a powerful tool that automates data retrieval using web searches and advanced language models. It enables users to extract specific information for entities listed in CSV files or Google Sheets. By leveraging APIs like SerpAPI for web searches and OpenAI's GPT for data extraction, the dashboard provides a seamless experience for gathering insights from the web.
+The AI Agent Dashboard is a powerful tool that automates data retrieval using web searches and advanced language models. It enables users to extract specific information for entities listed in CSV files or Google Sheets. By leveraging APIs(SerpAPI) for web searches and OpenAI's GPT for data extraction, the dashboard provides a seamless experience for gathering insights from the web.
 
 
 Key Features
