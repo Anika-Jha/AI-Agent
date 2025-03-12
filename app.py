@@ -6,6 +6,8 @@ from llm import extract_information
 from sheets import connect_google_sheet
 from utils import load_csv, download_data
 import os
+
+#api key
 api_key = os.getenv("SERPAPI_API_KEY")
 st.title("AI Agent Dashboard")
 
